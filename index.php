@@ -26,7 +26,7 @@
                     <li>{{movie.link}}</li>
 
                     <ul>
-                        <li v-for='genre in movie.genres'>{{genre}}</li>
+                        <li v-for='genre in movie.genres'>{{genre.genre}}</li>
                     </ul>
 
                 </ul>

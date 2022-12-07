@@ -12,6 +12,7 @@ createApp({
             axios
                 .get(url)
                 .then(response => {
+                    console.log(response)
                     this.movieList = response.data
                 })
                 .catch(err => {
